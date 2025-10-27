@@ -7,7 +7,7 @@ title: Schematic
 This schematic is to support the construction and wiring of the sensing PCB of the Garden Buddy
 
 
-![schematic](Screenshot%202025-10-27%20003749.png){style width:"350" height:"300;"}
+![schematic](Screenshot%202025-10-27%20104009.png){style width:"350" height:"300;"}
 
 
 
