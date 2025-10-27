@@ -10,4 +10,4 @@ This moisture sensor block diagram exists to show the basic construction of the 
 
 ## Moisture Sensor Block Diagram 
 
-![Moisture Sensor Block Diagram ](Individual-block-diagram-IJJ.drawio.png)
+![Moisture Sensor Block Diagram ](individual-block-diagram-IJJ.drawio.png)
