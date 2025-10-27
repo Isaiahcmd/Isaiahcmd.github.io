@@ -1,5 +1,5 @@
 ---
-title: Individal Block Diagram
+title: Moisture Sensor Block Diagram
 tags:
 - Moisture Sensor
 ---
