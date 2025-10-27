@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Isaiah Johnston Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Garden Buddy: Moisture Sensor</font><br>
 for<br>
 <font size= "5"> Team 201 </font><br>
 
@@ -16,19 +16,21 @@ for<br>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* These pages describe the construction and function of the moisture sensing PCB of the Garden Buddy smart irrigation system.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* This capacitive moisture sensor provides data to the pump of the Garden Buddy, controlling the amount of water recived by the target pants.
+* A data sheet detailing the full Garden Buddy system can be found [here.](https://asu-egr304-2025-f-201.github.io/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* Team 201 has developed a smart irrigation system to improve and streamline the workflow of hobbyist gardeners and small scale farmers.
+* For a general view of the components of the sensor go to ["Block Diagram"]()
+* For a descroption of the thought process behind compontents used for the sesor go to ["Compontnt selection"]()
+* For a list of the material used to construct the sensor go to ["BOM"]()
+* To view the schematic of this sensor go to ["Schematic"]()
+* To view a breakdown of how power moves through the sensor go to ["Power Budget"]()
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
-For all the sections
