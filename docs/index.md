@@ -27,10 +27,10 @@ for<br>
 ### My Contribution
 
 * Team 201 has developed a smart irrigation system to improve and streamline the workflow of hobbyist gardeners and small scale farmers.
-* For a general view of the components of the sensor go to ["Block Diagram"](docs/01-Block-Diagram)
-* For a descroption of the thought process behind compontents used for the sesor go to ["Compontnt selection"]()
-* For a list of the material used to construct the sensor go to ["BOM"]()
-* To view the schematic of this sensor go to ["Schematic"]()
-* To view a breakdown of how power moves through the sensor go to ["Power Budget"]()
+* For a general view of the components of the sensor go to ["Block Diagram"](https://isaiahcmd.github.io/01-Block-Diagram/Block-Diagram/)
+* For a descroption of the thought process behind compontents used for the sesor go to ["Compontnt selection"](https://isaiahcmd.github.io/02-Component-Selection/Component-Selection/)
+* For a list of the material used to construct the sensor go to ["BOM"](https://isaiahcmd.github.io/03-BOM/BOM/)
+* To view the schematic of this sensor go to ["Schematic"](https://isaiahcmd.github.io/04-Schematic/schematic/)
+* To view a breakdown of how power moves through the sensor go to ["Power Budget"](https://isaiahcmd.github.io/05-Power-Budget/Power-Budget/)
 
 
