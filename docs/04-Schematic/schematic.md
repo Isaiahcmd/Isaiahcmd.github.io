@@ -13,4 +13,4 @@ This schematic is to support the construction and wiring of the sensing PCB of t
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Moistsensch-picture.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](Moistsensch-picture.pdf), and the Zip folder of the project [*here*](Moisture%20Sensor-2025-10-26_161050.zip).
