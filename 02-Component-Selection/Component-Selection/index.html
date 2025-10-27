@@ -26,7 +26,7 @@
 
     
       
-        <title>Component Selection Example - EGR 304 Isaiah Johnston Data Sheet Template</title>
+        <title>Moisture Sensor Component Selection - EGR 304 Isaiah Johnston Data Sheet Template</title>
       
     
     
@@ -89,11 +89,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#style-2" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -125,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Component Selection Example
+              Moisture Sensor Component Selection
             
           </span>
         </div>
@@ -513,52 +508,15 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Component Selection Example
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Moisture Sensor Component Selection
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -784,23 +742,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -822,7 +763,7 @@
   
 
 
-  <h1>Component Selection Example</h1>
+  <h1>Moisture Sensor Component Selection</h1>
 
 <p><strong>Sensing and Probe Plate</strong></p>
 <table>
@@ -835,88 +776,198 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20000951.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20000951.png" width="50%"></a><br>Option 1.<br> Type: Interdigitated Comb<br>Manufacturer: Peralta (made in house)<br></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20000951.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20000951.png" width="70%"></a><br>Option 1.<br>* Type: Interdigitated Comb<br>Manufacturer: Peralta (made in house)<br></td>
 <td>* High sensitivity area of plate<br>* Good signal to noise ratio<br>* Low draw allows continuous sensing</td>
 <td>* High influence from air pockets<br>* Salty soils can cause shorts. <br>* Hard to clean.</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20001209.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20001209.png" width="70%"></a><br> Option 2. <br>* Type: Parallel Plates<br>* Manufacturer: Peralta (made in house) <br>* Design use only</td>
+<td>* Easy to design and etch <br>* Low cost <br> * Low risk of shorting</td>
+<td>* Low overall capacitance <br>* Low range of measurement <br>* Non-uniform sensing region</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20004911.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20004911.png" width="20%" height="10%"></a><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20004859.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20004859.png" width="20%" height="1%"></a><br>(back and front of probe)<br> Option 3.<br>* Type: Multi-layer<br>* Manufacturer: Peralta (made in house)</td>
+<td>* High sensitivity in bulk soil<br>* Deep measurement<br>* pairs can be chained to measure at different soil depths</td>
+<td>* Higher manufacturing tolerances<br>* Higher cost<br>* Probe stiffness makes it susceptible to cracking</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
+<p><strong>Choice:Interdigitated Comb</strong></p>
+<p><strong>Rationale:</strong> The interdigitated comb design has a larger excite and sensing region when compared to a paralel plate design of the same volume. The comb design is easier and cheaper to manucatur than the layered design due to its acceptable tolerence range.</p>
+<p><strong>AC Coupling Capacitor</strong></p>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-17%20230919.png" data-desc-position="bottom"><img src="Screenshot%202025-10-17%20230919.png" width="70%"></a><br>Option 1.<br>* K104K15X7RF5TH5 AC Coupling Capacitor<br>* Through hole mount<br>* $0.25/each<br><a href="https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TH5/286555">Digikey</a></td>
+<td>* Least expensive<br>* Works over a wide temperature range<br>* Small footprint</td>
+<td>* Sensitive to humidity<br>* Moderate dielectric absorption, can cause inaccurate readings<br>* Accuracy drifts over time</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-17%20230801.png" data-desc-position="bottom"><img src="Screenshot%202025-10-17%20230801.png" width="70%"></a><br> Option 2. <br>* SC430C104K3G5TA-ND AC Coupling Capacitor<br>* Through hole mount<br>* $0.29/each<br><a href="https://www.digikey.com/en/products/detail/kemet/C430C104K3G5TA/6687845">Digikey</a></td>
+<td>* Small footprint<br>* Good high frequency performance<br>* Long term reliability</td>
+<td>* Lower voltage rating<br>* Capacitance changes slightly with temperature<br>* Less but still has some dielectric absorption</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-17%20231348.png" data-desc-position="bottom"><img src="Screenshot%202025-10-17%20231348.png" width="70%"></a><br> Option 3.<br>* MKS2D031001A00MSSD AC Coupling Capacitor<br>* Through hole<br>* $0.51/each<br>*<a href="https://www.digikey.com/en/products/detail/wima/MKS2D031001A00MSSD/9370574">Digikey</a></td>
+<td>* Low DC leakage<br>* Low Dielectric absorption<br>* Resistant to moisture and mechanical stress</td>
+<td>* Largest of the options<br>* Most expensive<br>* The rigidity can stress solder joints if jostled or vibrated</td>
 </tr>
 </tbody>
 </table>
-</li>
-<li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
-</ul>
+<p><strong>Choice:C430C104K3G5TA-ND</strong></p>
+<p><strong>Rationale:</strong> The C430C104K3G5TA-ND will be chosen for its price and reliability. It is less susceptible to humidity and moisture error due to its sealed construction.</p>
+<p><strong>Schottky Diode</strong></p>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20005916.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20005916.png" width="70%"></a><br>Option 1.<br>* 1N5819<br>* Schottky Diode<br>* $0.13/each<br><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/1N5819/1037326">Digikey</a></td>
+<td>* Resilient under heat<br>* Low cost<br>* High surge current tolerance</td>
+<td>* Higher Vf can reduce efficiency in dry soil<br>* High junction capacitance<br>* Bulky</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20005851.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20005851.png" width="70%"></a><br> Option 2. <br>* BAT85S-TAP<br>* Schottky Diode<br>* $0.14/each<br><a href="https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/BAT85S-TAP/3104127">Digikey</a></td>
+<td>* Low Vf<br>* Small footprint<br>* Fast switching</td>
+<td>* Low current rating<br>* Low surge capability<br>* Fragile packaging</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-18%20010626.png" data-desc-position="bottom"><img src="Screenshot%202025-10-18%20010626.png" width="70%"></a><br> Option 3.<br>* 1N5817<br>* Schottky Diode<br>* $0.14/each<br>*<a href="https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770963">Digikey</a></td>
+<td>*Fast recovery<br>* Low noise<br>* Lower Vf than 1N5819</td>
+<td>* Bulky<br>* Large reverse leakage current<br>* Higher temperatures can cause drift</td>
 </tr>
 </tbody>
 </table>
-</li>
-</ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:BAT85S-TAP</strong></p>
+<p><strong>Rationale:</strong> The BAT85S-TAP will be used for its fast switching capability, low forward drop, and low leakage.</p>
+<p><strong>Op-Amp Buffer</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-19%20212236.png" data-desc-position="bottom"><img src="Screenshot%202025-10-19%20212236.png" width="70%"></a><br>Option 1.<br>* LM358P<br>* Op-Amp buffer<br>* $0.27/each<br><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM358P/277042">Digikey</a></td>
+<td>* Resilient under heat<br>* Low cost<br>* High surge current tolerance</td>
+<td>* Higher Vf can reduce efficiency in dry soil<br>* High junction capacitance<br>* Bulky</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-19%20211521.png" data-desc-position="bottom"><img src="Screenshot%202025-10-19%20211521.png" width="70%"></a><br> Option 2. <br>* CA3240EZ<br>* Op-Amp buffer<br>* $3.19/each<br><a href="https://www.digikey.com/en/products/detail/renesas-electronics-corporation/CA3240EZ/821389">Digikey</a></td>
+<td>* Fast slew<br>* Low input bias<br>* Good bandwidth</td>
+<td>* Not rail to rail I/O<br>* Noticable drift with temperature<br>* Input noise</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-19%20211619.png" data-desc-position="bottom"><img src="Screenshot%202025-10-19%20211619.png" width="70%"></a><br> Option 3.<br>* MCP6022-I/P<br>* Op-Amp buffer<br>* $1.86/each<br>*<a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6022-I-P/417828">Digikey</a></td>
+<td>*Low input bias<br>* Fast slew<br>* Low offset</td>
+<td>* Low drift with temperature rise<br>*Small baseline drift<br>*At risk of latchup potentially causing damage to the part</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice: MCP6022-I/P</strong></p>
+<p><strong>Rationale:</strong> The MCP6022-I/P will be used for its low bias, and fast slew rate. Consuming minimal power and sending a clean signal.
+**</p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20150924.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20150924.png" width="70%"></a><br>Option 1.<br>* L7805CV<br>* Linear Regulator<br>* $0.50/each<br><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">Digikey</a></td>
+<td>* Lowest cost<br>* Low noise<br>* No switching spikes</td>
+<td>* Energy inefficient<br>* Generates heat which could throw readings or introduce condensation<br>* Higher idle drain</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20151234.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20151234.png" width="70%"></a><br> Option 2. <br>* TSR 1-2450E<br>* Switching Regulator<br>* $3.40/each<br><a href="https://www.digikey.com/en/products/detail/traco-power/TSR-1-2450E/12171283?s=N4IgTCBcDaICoCcCGBjA9gAjgZQEoFoBGfMAFgFYAGEAXQF8g">Digikey</a></td>
+<td>* Low heat<br>* Energy efficient<br>* Low idle draw</td>
+<td>* Most expensive<br>* Higher output ripple<br>* Higher electromagnetic interference</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20151435.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20151435.png" width="70%"></a><br> Option 3.<br>* LM2596S-5.0<br>* Switching Regulator<br>* $3.32/each<br>*<a href="https://www.digikey.com/en/products/detail/umw/LM2596S-5-0/16705901">Digikey</a></td>
+<td>*Good efficiency<br>* Operates in a wide voltage range<br>* High current headroom</td>
+<td>* Noisier than other options<br>* High Idle draw<br>* Needs tuning/ Extra QA for productions runs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:TSR 1-2450E</strong></p>
+<p><strong>Rationale:</strong> The TSR 1-2450E will be used for its efficiency in stepping down power while producing low heat, and stable output under load.</p>
+<p><strong>Power Supply</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20192016.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20192016.png" width="70%"></a><br>Option 1.<br>* 16-00030 AC/DC WALL MOUNT ADAPTER 12V 6W<br>* Wall outlet power supply<br>* $6.77/each<br>*<a href="https://www.digikey.com/en/products/detail/tensility-international-corp/16-00030/10324409?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLlhDPP3OBpG5nKxDHh9GweBbP&amp;gclid=CjwKCAjw3tzHBhBREiwAlMJoUr_wV-gGGldVXDYFfLn7gjQ5H6BAUQ0fgq_vArBnfdnLXE7DjR_N5xoCaXwQAvD_BwE">Digikey</a></td>
+<td>*Lowest cost<br>* Constant power<br>* Clean supply</td>
+<td>* Not portable<br>* Limited use without extension cords<br>* Indoor use only</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20162602.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20162602.png" width="70%"></a><br> Option 2. <br>* RadioMaster 5000mAh 2S 7.4V Li-ion Battery with XT30 Connector<br>* Rechargeable power supply<br>* $25.99/each<br><a href="https://www.motionrc.com/products/radiomaster-5000mah-2s-7-4v-li-ion-battery-with-xt30-connector-hp0157-batt-5a2s?srsltid=AfmBOoouwp1tw2VWueXsnK8W4uQuzwqAE6nUhBdlDAyu8GNJax9JY2X0">MotionRC</a></td>
+<td>* Long runtime<br>* Compact<br>* Easy connection</td>
+<td>* Highest cost<br>* Performance loss at freezing and high heat<br>* Risk of over voltage spikes</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-21%20193501.png" data-desc-position="bottom"><img src="Screenshot%202025-10-21%20193501.png" width="70%"></a><br> Option 3.<br>* 2440 BATT HOLDER AA 4 CELL 6" LEADS<br>* Replacable power supply<br>* $9.68/each<br>*<a href="https://www.digikey.com/en/products/detail/keystone-electronics/2440/9561058?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLliKbEh2iWNss6PAqtweLuMmH&amp;gclid=CjwKCAjw3tzHBhBREiwAlMJoUjfBbA3qv7wjORBrH5ku49U_r9DPOGB7L7E-aR4IS9pyWZ6hrcpbbhoCxeoQAvD_BwE">Digikey</a></td>
+<td>*User can easily replace cells<br>* Low cost to replace cells<br>* Safer for users than a Li-ion battery</td>
+<td>*Lower energy density<br>* Not weather proof<br>* More affected by weather than Li-ion</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:RadioMaster 5000mAh 2S 7.4V Li-ion Battery</strong></p>
+<p><strong>Rationale:</strong> The RadioMaster 5000mAh 2S 7.4V Li-ion Battery with XT30 Connector will be used for its long battery life and compact nature.</p>
+<p><strong>Connector Header</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-22%20114105.png" data-desc-position="bottom"><img src="Screenshot%202025-10-22%20114105.png" width="70%"></a><br>Option 1.<br>* TB002-500-02BE TERMINAL BLOCK, SCREW TYPE, 5.00<br>* Wire connection<br>* $0.40/each<br><a href="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB002-500-02BE/10064069">Digikey</a></td>
+<td>* Least expensive<br>* Flexible connections<br>* Secure connection</td>
+<td>* Bulky<br>* Slower assembly/Slow production<br>* Screws can back off with vibration</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-22%20115526.png" data-desc-position="bottom"><img src="Screenshot%202025-10-22%20115526.png" width="70%"></a><br> Option 2. <br>* EBC04MMMD CONN CARDEDGE MALE 8POS 0.100<br>* Board-to-board connection<br>* $2.69/each<br><a href="[http://EBC04MMMD-ND](https://www.digikey.com/en/products/detail/sullins-connector-solutions/EBC04MMMD/4538822?s=N4IgTCBcDaIKICEDCAGALAWSwEQARIHkA5I-AQQCVs5sBxOXDMgGQYA4AFAgZVxQDoAjChQgAugF8gA)">Digikey</a></td>
+<td>* Compact<br>* Short signal path = good integrity<br>* Makes board easily swapable</td>
+<td>* No flexibility<br>* Most expensive<br>* Non Locking</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Screenshot%202025-10-22%20120830.png" data-desc-position="bottom"><img src="Screenshot%202025-10-22%20120830.png" width="70%"></a><br> Option 3.<br>* 215570-8 CONN DIP HDR IDC 8POS 28AWG PCB<br>* Ribbon connection<br>* $0.81/each<br>*<a href="[https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770963](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/215570-8/4142495)">Digikey</a></td>
+<td>*Flexible connections<br>* Fast attachment and detachment<br>* Keyed to prevent incorrect plug in</td>
+<td>* Not sealed<br>* Limited current<br>* No strain relief</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:215570-8 CONN DIP HDR IDC 8POS 28AWG PCBP</strong></p>
+<p><strong>Rationale:</strong> The 215570-8 CONN DIP HDR IDC 8POS 28AWG PCB will be used for flexibility, modularity, and ease of assembly of the ribbon connection.</p>
 
 
 
