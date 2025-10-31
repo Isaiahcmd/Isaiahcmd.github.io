@@ -28,18 +28,6 @@ title: Moisture Sensor Component Selection
 
 **Rationale:** The C430C104K3G5TA-ND will be chosen for its price and reliability. It is less susceptible to humidity and moisture error due to its sealed construction.
 
-**Schottky Diode**
-
-| **Solution**                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-|![image](005916.png){width=70%}<br>Option 1.<br>\* 1N5819<br>\* Schottky Diode<br>\* $0.13/each<br>[Digikey](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5819/1037326) | \* Resilient under heat<br>\* Low cost<br>\* High surge current tolerance| \* Higher Vf can reduce efficiency in dry soil<br>\* High junction capacitance<br>\* Bulky|
-| ![image](005851.png){width=70%}<br>\ Option 2. <br>\* BAT85S-TAP<br>\* Schottky Diode<br>\* $0.14/each<br>[Digikey](https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/BAT85S-TAP/3104127) | \* Low Vf<br>\* Small footprint<br>\* Fast switching |* Low current rating<br>\* Low surge capability<br>\* Fragile packaging|
-|![image](010626.png){width=70%}<br>\ Option 3.<br>\* 1N5817<br>\* Schottky Diode<br>\* $0.14/each<br>\*[Digikey](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770963) |*Fast recovery<br>\* Low noise<br>\* Lower Vf than 1N5819|* Bulky<br>\* Large reverse leakage current<br>\* Higher temperatures can cause drift|
-
-**Choice:BAT85S-TAP**
-
-**Rationale:** The BAT85S-TAP will be used for its fast switching capability, low forward drop, and low leakage.
-
 
   **Op-Amp Buffer**
 
