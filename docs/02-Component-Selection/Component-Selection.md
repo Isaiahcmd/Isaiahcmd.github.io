@@ -49,7 +49,7 @@ title: Moisture Sensor Component Selection
 
 **Choice:RadioMaster 5000mAh 2S 7.4V Li-ion Battery**
 
-**Rationale:** The RadioMaster 5000mAh 2S 7.4V Li-ion Battery with XT30 Connector will be used for its long battery life and compact nature.
+**Rationale:** 16-00030 AC/DC WALL MOUNT ADAPTER 12V 6W, will be used for its convenience and easy of use.
 
 **Connector Header**
 
