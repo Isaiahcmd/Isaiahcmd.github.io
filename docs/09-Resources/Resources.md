@@ -10,4 +10,4 @@ The code located in the link below will send pulsed square waves to the excite n
 
 ## Moisture Sensor Code Resources
 
-A link containing the moisture sensor code is located here
+A link containing the moisture sensor code is located [*here*](MoistSenseV2.zip).
