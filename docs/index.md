@@ -31,5 +31,9 @@ for<br>
 * For a list of the material used to construct the sensor go to ["BOM"](https://isaiahcmd.github.io/03-BOM/BOM/)
 * To view the schematic of this sensor go to ["Schematic"](https://isaiahcmd.github.io/04-Schematic/schematic/)
 * To view a breakdown of how power moves through the sensor go to ["Power Budget"](https://isaiahcmd.github.io/05-Power-Budget/Power-Budget/)
+* To view the ECAD and printed PCB go to [PCB](https://isaiahcmd.github.io/06-PCB/PCB/)
+* To view the code running the moisture sensor go to [Code](https://isaiahcmd.github.io/07-Code/Code/)
+* To view outlooks and goals for version 2.0 go to [HardwareV2.0](https://isaiahcmd.github.io/08-HardwareV2.0/HardwareV2.0/)
+* To view other resources go to [Resources](https://isaiahcmd.github.io/09-Resources/Resources/)
 
 
