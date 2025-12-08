@@ -27,4 +27,4 @@ The following image is of a populated but broken moisture sensing PCB.
 
 ## Resouces
 
-The GBR and drill files are available [*here*](MoistSenseV5.zip), and the Zip folder of the project [*here*](Moisture%20Sensor-2025-11-07_212849.zip).
+The GBR and drill files are available [*here*](MoistSenseV5.zip), and the Zip folder of the project [*here*](Moisture%20Sensor-2025-12-08_024201.zip).
