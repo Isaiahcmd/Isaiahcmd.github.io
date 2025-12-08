@@ -41,7 +41,7 @@ title: Moisture Sensor Component Selection
 
 **Revision 1.1:** Due to the lack of support documentation for the TSR 1-2450E a change was made to the LM2575-5.0WT. The manufacturer, Microtech Technologies, provides goood recources on the exact way to build the circuit for a functioning voltage regulator.
 
-![image](VR.png){width=50% height=50%}
+![image](VR.png){width=50% height=20%}
 
 **Power Supply**
 
