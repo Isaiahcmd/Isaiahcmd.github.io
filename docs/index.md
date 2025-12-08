@@ -35,5 +35,6 @@ for<br>
 * To view the code running the moisture sensor go to [Code](https://isaiahcmd.github.io/07-Code/Code/)
 * To view outlooks and goals for version 2.0 go to [HardwareV2.0](https://isaiahcmd.github.io/08-HardwareV2.0/HardwareV2.0/)
 * To view other resources go to [Resources](https://isaiahcmd.github.io/09-Resources/Resources/)
+* To view the lessons learned from this project and reflections on the project go to [Reflections](https://isaiahcmd.github.io/10-Reflections/Reflections/)
 
 
