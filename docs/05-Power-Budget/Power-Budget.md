@@ -15,4 +15,4 @@ Power needs should be met with the chosen power source. A 1 amp fuse will be put
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](POWERBGTV3.pdf), and a Microsoft Excel Sheet [*here*](Moisture%20Sensor%20Power%20Budget.xlsx).
+The power budget as a PDF download is available [*here*](POWERBGTV3.pdf), and a Microsoft Excel Sheet [*here*](POWERBGTV3.xlsx).
