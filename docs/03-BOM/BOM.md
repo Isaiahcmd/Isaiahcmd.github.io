@@ -1,8 +1,7 @@
 ---
 title: Moisture Sensor Bill of Materials
 tags:
-- tag1
-- tag2
+- BOM
 ---
 
 ## Overview
@@ -14,4 +13,4 @@ This bill of materials details the components necessary to construct the Garden 
 **Figure 2:** Moisture Sensor Bill of Materials.
 
 ## Bill of Materials Resources
-A PDF of the Bill of Materials is located here 
+A PDF of the Bill of Materials is located [*here*](Bill%20of%20MaterialsV2.pdf). 
