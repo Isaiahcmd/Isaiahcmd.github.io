@@ -10,5 +10,8 @@ This bill of materials details the components necessary to construct the Garden 
 
 
 ## Bill of Materials 
-![bom](moistbom.png){style width: "2000"}
+![bom]BOMV2.png){style width: "2000"}
 **Figure 2:** Moisture Sensor Bill of Materials.
+
+## Bill of Materials Resources
+A PDF of the Bill of Materials is located here 
