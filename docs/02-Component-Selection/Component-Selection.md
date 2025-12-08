@@ -39,7 +39,8 @@ title: Moisture Sensor Component Selection
 
 **Rationale:** The TSR 1-2450E will be used for its efficiency in stepping down power while producing low heat, and stable output under load.
 
-**Revision 1.1:** Due to the lack of support documentation for the TSR 1-2450E a change was made to the LM2575-5.0WT. The manufacturer, Microtech Technologies, provides goood recources on the exact way to build the circuit for a functioning voltage regulator.![image](VR.png){width=70%}
+**Revision 1.1:** Due to the lack of support documentation for the TSR 1-2450E a change was made to the LM2575-5.0WT. The manufacturer, Microtech Technologies, provides goood recources on the exact way to build the circuit for a functioning voltage regulator.
+![image](VR.png){width=50%}{height=50%}
 
 **Power Supply**
 
@@ -53,7 +54,8 @@ title: Moisture Sensor Component Selection
 
 **Rationale:** 16-00030 AC/DC WALL MOUNT ADAPTER 12V 6W, will be used for its convenience and easy of use.
 
-**Revision 1.1:** The initial choice was abandoned for the class provided 237-1449-ND 9V power supply. This was done to save money. There was no obvious reason to chose another power supply.![image](PR.png){width=70%}
+**Revision 1.1:** The initial choice was abandoned for the class provided 237-1449-ND 9V power supply. This was done to save money. There was no obvious reason to chose another power supply.
+![image](PR.png){width=50%}{height=50%}
 
 **Connector Header**
 
@@ -66,4 +68,5 @@ title: Moisture Sensor Component Selection
 **Choice:215570-8 CONN DIP HDR IDC 8POS 28AWG PCBP**
 
 **Rationale:** The 215570-8 CONN DIP HDR IDC 8POS 28AWG PCB will be used for flexibility, modularity, and ease of assembly of the ribbon connection.
-**Future Revision** The initial choice was incorrect for the provided ribbon connector. A choice like the TSW-104-07-F-D would be more suited for the role.![image](PC.png){width=70%}
+**Future Revision** The initial choice was incorrect for the provided ribbon connector. A choice like the TSW-104-07-F-D would be more suited for the role.
+![image](PC.png){width=50%}{height=50%}
