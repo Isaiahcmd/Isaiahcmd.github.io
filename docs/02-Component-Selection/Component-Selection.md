@@ -39,6 +39,8 @@ title: Moisture Sensor Component Selection
 
 **Rationale:** The TSR 1-2450E will be used for its efficiency in stepping down power while producing low heat, and stable output under load.
 
+**Revision 1.1:** Due to the lack of support documentation for the TSR 1-2450E a change was made to the LM2575-5.0WT. The manufacturer, Microtech Technologies, provides goood recources on the exact way to build the circuit for a functioning voltage regulator.![image](120830.png){width=70%}
+
 **Power Supply**
 
 | **Solution**                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
@@ -47,9 +49,11 @@ title: Moisture Sensor Component Selection
 | ![image](162602.png){width=70%}<br> Option 2. <br>\* RadioMaster 5000mAh 2S 7.4V Li-ion Battery with XT30 Connector<br>\* Rechargeable power supply<br>\* $25.99/each<br>[MotionRC](https://www.motionrc.com/products/radiomaster-5000mah-2s-7-4v-li-ion-battery-with-xt30-connector-hp0157-batt-5a2s?srsltid=AfmBOoouwp1tw2VWueXsnK8W4uQuzwqAE6nUhBdlDAyu8GNJax9JY2X0) | \* Long runtime<br>\* Compact<br>\* Easy connection |* Highest cost<br>\* Performance loss at freezing and high heat<br>\* Risk of over voltage spikes|
 |![image](193501.png){width=70%}<br>\ Option 3.<br>\* 2440 BATT HOLDER AA 4 CELL 6" LEADS<br>\* Replacable power supply<br>\* $9.68/each<br>\*[Digikey](https://www.digikey.com/en/products/detail/keystone-electronics/2440/9561058?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLliKbEh2iWNss6PAqtweLuMmH&gclid=CjwKCAjw3tzHBhBREiwAlMJoUjfBbA3qv7wjORBrH5ku49U_r9DPOGB7L7E-aR4IS9pyWZ6hrcpbbhoCxeoQAvD_BwE) |*User can easily replace cells<br>\* Low cost to replace cells<br>\* Safer for users than a Li-ion battery|*Lower energy density<br>\* Not weather proof<br>\* More affected by weather than Li-ion|
 
-**Choice:RadioMaster 5000mAh 2S 7.4V Li-ion Battery**
+**Choice: 16-00030 AC/DC WALL MOUNT ADAPTER 12V 6W**
 
 **Rationale:** 16-00030 AC/DC WALL MOUNT ADAPTER 12V 6W, will be used for its convenience and easy of use.
+
+**Revision 1.1:** The initial choice was abandoned for the class provided 237-1449-ND 9V power supply. This was done to save money. There was no obvious reason to chose another power supply.![image](120830.png){width=70%}
 
 **Connector Header**
 
@@ -62,3 +66,4 @@ title: Moisture Sensor Component Selection
 **Choice:215570-8 CONN DIP HDR IDC 8POS 28AWG PCBP**
 
 **Rationale:** The 215570-8 CONN DIP HDR IDC 8POS 28AWG PCB will be used for flexibility, modularity, and ease of assembly of the ribbon connection.
+**Future Revision** The initial choice was incorrect for the provided ribbon connector. A choice like the TSW-104-07-F-D would be more suited for the role.![image](120830.png){width=70%}
