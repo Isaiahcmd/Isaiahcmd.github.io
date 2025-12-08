@@ -1,7 +1,7 @@
 ---
 title: Moisture Sensor Block Diagram
 tags:
-- Moisture Sensor
+- Block Diagram
 ---
 
 ## Overview
@@ -10,4 +10,4 @@ This moisture sensor block diagram exists to show the basic construction of the 
 
 ## Moisture Sensor Block Diagram 
 
-![Moisture Sensor Block Diagram ](realblock.png)
+![Moisture Sensor Block Diagram ](BLOCKV3.png)
